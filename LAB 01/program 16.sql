@@ -16,4 +16,4 @@ CREATE TABLE employee (
 
     FOREIGN KEY (job_id)
     REFERENCES jobs(job_id)
-);
+); 

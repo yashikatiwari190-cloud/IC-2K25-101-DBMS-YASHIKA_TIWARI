@@ -1,0 +1,5 @@
+/*2. Write a query to display the name (first_name, last_name) and 
+department ID of all employees in departments 30 or 100 in ascending order.*/
+SELECT CONCAT(FIRST_NAME, ' ', LAST_NAME) AS'NAME',DEPARTMENT_ID
+FROM EMPLOYEES
+WHERE DEPARTMENT_ID IN('30','10') ORDER BY DEPARTMENT_ID ASC;
